@@ -20,5 +20,6 @@ Repositori ini berisi portofolio akademik mahasiswa dalam format Excel. Setiap b
   - D (50–59.9): Kurang
   - E (<50): Sangat Kurang
 
-📊 File Excel: [Klik di sini](./nama_file.xlsx)
+📊 File Excel: [Klik di sini](./Portofolio_Akademik.xlsx.)
+
 
