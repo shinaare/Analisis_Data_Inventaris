@@ -1,37 +1,24 @@
+# Portofolio Akademik Mahasiswa
 
-🔗 Judul Proyek: Analisis Data Inventaris Barang
-📁 Deskripsi Singkat
-Proyek ini merupakan bagian dari latihan analisis data menggunakan Microsoft Excel, yang mencakup:
+Repositori ini berisi portofolio akademik mahasiswa dalam format Excel. Setiap baris mewakili seorang mahasiswa, termasuk informasi seperti:
 
-Ekstraksi data dari kode barang.
+- NIM
+- Angkatan
+- Jurusan
+- Nilai Tugas, MID, dan UAS
+- Nilai Akhir
+- Predikat
+- Status (Lulus / Mengulang / Tidak Lulus)
 
-Perhitungan tahun perkiraan perbaikan berdasarkan kode dan masa fungsi.
+### Format Penilaian
 
-Klasifikasi fakultas berdasarkan kode unit.
+- **Nilai Akhir** = 30% Tugas + 35% MID + 35% UAS
+- **Predikat:**
+  - A (>85): Sangat Memuaskan
+  - B (75–84.9): Memuaskan
+  - C (60–74.9): Cukup
+  - D (50–59.9): Kurang
+  - E (<50): Sangat Kurang
 
-Penggunaan fungsi COUNTIF, SUMIF, dan logika IF untuk membuat ringkasan data otomatis.
+📊 File Excel: [Klik di sini](./nama_file.xlsx)
 
-Pembuatan dashboard ringkas dengan data validasi dan referensi.
-
-🎯 Tujuan Proyek
-Melatih penggunaan rumus Excel lanjutan seperti MID(), LEFT(), COUNTIF(), SUMIF(), dan IF().
-
-Mengelompokkan dan menganalisis data berdasarkan kode unit fakultas.
-
-Menentukan jumlah barang dan biaya berdasarkan kategori.
-
-🧠 Keterampilan yang Digunakan
-Microsoft Excel (Rumus, Tabel, Logika)
-
-Analisis data dasar
-
-Pengelompokan dan visualisasi data
-
-📌 Contoh Rumus yang Digunakan
-excel
-Copy
-Edit
-=LEFT(A2,2)+D2    --> Menghitung tahun perkiraan perbaikan
-=IF(B2=520,"FTI",IF(B2=310,"FE","FK"))  --> Menentukan fakultas dari kode unit
-=COUNTIF(range,kriteria) --> Menghitung jumlah item per fakultas
-=SUMIF(range,kriteria,sum_range) --> Menjumlahkan harga per fakultas
